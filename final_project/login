@@ -1,0 +1,4 @@
+curl -X POST http://localhost:5000/customer/login \
+  -H "Content-Type: application/json" \
+  -d '{"username":"atharva_test2","password":"Test@123"}'
+{"message":"User successfully logged in","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImF0aGFydmFfdGVzdDIiLCJpYXQiOjE3OTIzMDE5MDEsImV4cCI6MTc5MjMwNTUwMX0.2YwaB_GvV03AbTDIh8csNpw2B-3umd0ARnJUrzJm5fY"}
